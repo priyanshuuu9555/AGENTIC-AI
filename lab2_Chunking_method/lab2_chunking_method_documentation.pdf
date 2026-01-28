@@ -1,0 +1,129 @@
+Lab 2: Chunking Method
+Documentation
+
+Subject: Agentic AI
+Lab Name: Lab 2 – Chunking Method
+Student Name: Priyanshu Kumar Singh
+Repository Name: AGENTIC-AI
+
+1. Objective
+
+The objective of this lab is to understand and implement different text chunking (text splitting) methods used in Agentic AI systems to handle large documents efficiently.
+
+2. Introduction
+
+In Agentic AI, models often work with large amounts of text such as documents, PDFs, or web pages. Since language models have context length limitations, large text must be divided into smaller meaningful parts known as chunks.
+
+This process is called chunking or text splitting. Proper chunking improves context understanding, retrieval accuracy, and overall agent performance, especially in systems like Retrieval-Augmented Generation (RAG).
+
+3. Importance of Chunking in Agentic AI
+
+Enables processing of large documents
+
+Improves information retrieval
+
+Maintains contextual relevance
+
+Reduces token overflow errors
+
+Enhances response accuracy in AI agents
+
+4. Types of Chunking Methods Studied
+4.1 Fixed-Size Chunking
+
+Text is divided into equal-sized chunks
+
+Simple but may break semantic meaning
+
+4.2 Sentence-Based Chunking
+
+Text is split based on sentence boundaries
+
+Preserves meaning better than fixed-size
+
+4.3 Overlapping Chunking
+
+Each chunk overlaps partially with the next
+
+Helps maintain context continuity
+
+4.4 Recursive Chunking
+
+Text is split hierarchically (paragraph → sentence → words)
+
+Used when text structure varies
+
+4.5 Semantic Chunking
+
+Splits text based on meaning rather than size
+
+Most effective but computationally expensive
+
+5. Methodology
+
+A long input text is selected.
+
+Different chunking strategies are applied.
+
+Chunk size and overlap parameters are defined.
+
+Output chunks are analyzed for context preservation.
+
+6. Implementation Description
+
+The implementation is done using a Jupyter Notebook named:
+
+chunking_method.ipynb
+
+
+The notebook demonstrates:
+
+Loading a long text input
+
+Applying multiple chunking techniques
+
+Displaying chunk outputs
+
+Comparing chunk size and overlap impact
+
+Python is used to programmatically split the text using logical rules.
+
+7. Tools and Technologies Used
+
+Python
+
+Jupyter Notebook
+
+Natural Language Processing concepts
+
+8. Results and Observations
+
+Fixed-size chunking is fast but less meaningful
+
+Sentence-based chunking preserves structure
+
+Overlapping chunks improve contextual understanding
+
+Proper chunking significantly improves retrieval quality
+
+9. Applications of Chunking
+
+Chatbots
+
+Document Q&A systems
+
+RAG pipelines
+
+AI agents handling PDFs or webpages
+
+10. Conclusion
+
+This lab provided a practical understanding of chunking methods used in Agentic AI systems. Different chunking strategies affect how well an AI agent understands and retrieves information. Selecting the correct chunking method is crucial for building efficient and intelligent AI agents.
+
+11. Learning Outcome
+
+Understood the need for chunking in AI systems
+
+Implemented multiple chunking strategies
+
+Learned how chunking affects context and retrieval
