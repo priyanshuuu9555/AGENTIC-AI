@@ -1,0 +1,119 @@
+Lab 1: Fine-Tuning
+Documentation
+
+Subject: Agentic AI
+Lab Title: Fine-Tuning a Vision–Language Model (BLIP)
+Student Name: Priyanshu Kumar Singh
+
+1. Objective
+
+The objective of this lab is to understand and implement the fine-tuning of a pre-trained Vision–Language model (BLIP) on an image captioning dataset, and to observe how fine-tuning improves task-specific performance.
+
+2. Introduction
+
+Fine-tuning is the process of adapting a pre-trained model to a specific task using additional domain-specific data. Instead of training a model from scratch, fine-tuning leverages existing knowledge and adjusts the model parameters for better performance on a targeted problem.
+
+In Agentic AI systems, fine-tuning enables agents to specialize in tasks such as image understanding, caption generation, or multimodal reasoning. In this lab, the BLIP (Bootstrapped Language–Image Pretraining) model is fine-tuned for the task of image captioning.
+
+3. Dataset Description
+
+The dataset used in this lab consists of:
+
+Images
+
+Corresponding textual captions
+
+Each image is paired with a descriptive caption, allowing the model to learn the relationship between visual features and natural language descriptions.
+
+4. Model Used
+
+The BLIP (Bootstrapped Language–Image Pretraining) model is a pre-trained vision–language model capable of understanding images and generating meaningful textual descriptions.
+
+Key features of BLIP:
+
+Multimodal learning (image + text)
+
+Pre-trained on large-scale datasets
+
+Suitable for image captioning and visual question answering
+
+5. Tools and Technologies Used
+
+Python
+
+Jupyter Notebook
+
+PyTorch
+
+Hugging Face Transformers
+
+BLIP Pre-trained Model
+
+6. Methodology
+
+The following steps are performed in the fine-tuning process:
+
+Load the pre-trained BLIP model and processor.
+
+Load and preprocess the image captioning dataset.
+
+Convert images and captions into model-compatible inputs.
+
+Define training parameters such as batch size and learning rate.
+
+Fine-tune the model on the dataset.
+
+Generate captions using the fine-tuned model.
+
+7. Implementation Description
+
+The implementation is carried out in the Jupyter Notebook:
+
+Fine_tune-BLIP_on_an_image_captioning_dataset.ipynb
+
+
+The notebook includes:
+
+Dataset loading and preprocessing
+
+Model initialization
+
+Training loop for fine-tuning
+
+Caption generation for evaluation
+
+All steps are executed sequentially with proper output visualization.
+
+8. Results and Observations
+
+After fine-tuning:
+
+The model generates more accurate and context-aware image captions.
+
+Captions better match the objects and actions present in the images.
+
+Performance improves compared to the base pre-trained model.
+
+9. Applications
+
+Fine-tuned image captioning models can be used in:
+
+Assistive technologies
+
+Content generation systems
+
+Visual search engines
+
+Intelligent AI agents with multimodal understanding
+
+10. Conclusion
+
+This lab successfully demonstrated the fine-tuning of a BLIP model for image captioning. Fine-tuning allows AI agents to specialize in specific tasks and improves the overall effectiveness of Agentic AI systems. The experiment highlights the importance of task-specific adaptation in modern AI workflows.
+
+11. Learning Outcome
+
+Understood the concept of fine-tuning
+
+Learned how to fine-tune a vision–language model
+
+Gained experience with multimodal AI systems
